@@ -1,10 +1,10 @@
 body {
-	background-color: yellow;
+	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#MyWebsite {
-	max-width: 50vw;
+#PersonalWebsite {
+	/*max-width: 50vw;*/
 	padding: 20px;
 	background-color: white;
 	box-shadow: 5px 5px rgba(0,0,0,0.1);
@@ -15,12 +15,51 @@ img {
 	border: 5px solid #black;
 	width: 100%;
 	max-width: 200px;
+	vertical-align: center;
 }
 
 h3 {
 	color: blue;
+	text-align: center;
 }
 
 h4 {
 	color: red;
+	text-align: center;
+}
+
+.centerImage
+{
+	vertical-align: middle;
+	display:block;
+}
+
+p {
+	text-align: center;
+}
+
+ul {
+	display: table;
+	margin:0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#beginning {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	left: 50%;
+	top: 50%;
+	margin-right: -250px;
+	margin-left: -250px;
+	text-align: center;
+}
+
+#beginning h1 {
+	text-align: center;
+	color: #E6E0CB;
+	font-size: 100px;
 }
