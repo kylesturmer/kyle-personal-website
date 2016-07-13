@@ -1,12 +1,18 @@
+html{
+	height: 100%;
+	}
+
 body {
 	/*background-color: white;*/
 	font-family: 'Source Sans Pro', sans-serif;
+	height: 100%;
 }
 
 #beginning {
-	position: absolute;
+	position: relative;
 	width: 450px;
-	height: 450px;
+	/*height: 450px;*/
+	min-height: 100%;
 	left: 50%;
 	/*top: 50%;*/
 	margin-right: -250px;
@@ -16,7 +22,7 @@ body {
 
 #beginning h1 {
 	text-align: center;
-	color: #E6E0CB;
+	color: #6A5ACD;
 	font-size: 75px;
 }
 
@@ -28,7 +34,7 @@ body {
 	vertical-align: center;
 }
 
-#beginning h3 {
+ h3 {
 	color: blue;
 	text-align: center;
 }
@@ -42,9 +48,53 @@ body {
 	text-align: center;
 }
 
-#beginning ul {
+ul {
 	display: table;
 	margin:0 auto;
+}
+
+#background {
+	position: relative;
+	width: 450px;
+	/*height: 450px;*/
+	left: 50%;
+	/*top: 50%;*/
+	margin-right: -250px;
+	margin-left: -250px;
+	text-align: center;
+}
+
+#education {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	left: 50%;
+	/*top: 50%;*/
+	margin-right: -250px;
+	margin-left: -250px;
+	text-align: center;
+}
+
+#skills {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	left: 50%;
+	/*top: 50%;*/
+	margin-right: -250px;
+	margin-left: -250px;
+	text-align: center;
+}
+
+#contact {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	left: 50%;
+	/*top: 50%;*/
+	margin-right: -250px;
+	margin-left: -250px;
+	text-align: center;
 }
 
 nav.main {
